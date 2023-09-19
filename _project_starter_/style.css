@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+/*  BASIC STYLES AND RESETS **************************/
+:root {
+  --main-color: white;
+  --accent-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/***************************************************/
+
+/*  FOOTER STYLES  *********************************/
+footer {
+  display: flex;
+  padding-top: 3rem;
+}
+
+footer p {
+  font-weight: 300;
+}
+
+footer a,
+footer a:visited,
+footer a:active {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/**************************************************/
